@@ -6,7 +6,10 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc",
-    "prepare": "ts-patch install && typia patch"
+    "build:test": "rimraf bin && tsc --project test/tsconfig.json",
+    "dev": "npm run build:test -- --watch",
+    "prepare": "ts-patch install && typia patch",
+    "test": "npx ts-node test/index.ts"
   },
   "repository": {
     "type": "git",
@@ -25,13 +28,22 @@
     "README.md"
   ],
   "devDependencies": {
+    "@nestia/e2e": "^0.4.1",
+    "@types/inquirer": "8.2.5",
+    "commander": "^10.0.0",
+    "inquirer": "8.2.5",
+    "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "ts-patch": "^3.1.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "typescript-transform-paths": "^3.4.6"
   },
   "dependencies": {
     "@nestia/fetcher": "^2.5.8",
     "typia": "^5.4.9"
+  },
+  "stackblitz": {
+    "startCommand": "npm install && npm run test"
   }
 }

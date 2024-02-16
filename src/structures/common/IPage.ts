@@ -5,6 +5,7 @@ import { tags } from "typia";
  *
  * Collection of records with pagination indformation.
  *
+ * @template T Record type
  * @author Samchon
  */
 export interface IPage<T extends object> {
@@ -36,12 +37,12 @@ export namespace IPage {
     limit: number & tags.Type<"uint32">;
 
     /**
-     * Count of total records in database.
+     * Total records in the database.
      */
     records: number & tags.Type<"uint32">;
 
     /**
-     * Number of total pages.
+     * Total pages.
      *
      * Equal to {@link records} / {@link limit} with ceiling.
      */
@@ -59,6 +60,8 @@ export namespace IPage {
 
     /**
      * Limitation of records per a page.
+     *
+     * @default 100
      */
     limit?: number & tags.Type<"uint32">;
   }

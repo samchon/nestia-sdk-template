@@ -1,4 +1,5 @@
 .git/
+bin/
 lib/
 node_modules/
 
