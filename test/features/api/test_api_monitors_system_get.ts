@@ -1,5 +1,5 @@
-import api from "@api";
-import type { ISystem } from "@api/structures/monitors/ISystem";
+import api from "@ORGANIZATION/PROJECT-api";
+import type { ISystem } from "@ORGANIZATION/PROJECT-api/structures/monitors/ISystem";
 import typia from "typia";
 
 export const test_api_monitors_system_get = async (

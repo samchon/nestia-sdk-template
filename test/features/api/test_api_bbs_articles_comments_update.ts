@@ -1,5 +1,5 @@
-import api from "@api";
-import { IBbsArticleComment } from "@api/structures/bbs/IBbsArticleComment";
+import api from "@ORGANIZATION/PROJECT-api";
+import { IBbsArticleComment } from "@ORGANIZATION/PROJECT-api/structures/bbs/IBbsArticleComment";
 import typia from "typia";
 import type { Format } from "typia/lib/tags/Format";
 

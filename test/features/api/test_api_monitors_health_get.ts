@@ -1,4 +1,4 @@
-import api from "@api";
+import api from "@ORGANIZATION/PROJECT-api";
 import typia from "typia";
 
 export const test_api_monitors_health_get = async (

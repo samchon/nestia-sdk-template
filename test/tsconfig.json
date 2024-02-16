@@ -3,9 +3,9 @@
   "compilerOptions": {
     "outDir": "../bin",
     "paths": {
-      "@api": ["../src"],
-      "@api/": ["../src"],
-      "@api/*": ["../src/*"],
+      "@ORGANIZATION/PROJECT-api": ["../src"],
+      "@ORGANIZATION/PROJECT-api/": ["../src"],
+      "@ORGANIZATION/PROJECT-api/*": ["../src/*"],
     },
     "plugins": [
       { "transform": "typia/lib/transform" },
