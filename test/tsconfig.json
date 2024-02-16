@@ -4,8 +4,7 @@
     "outDir": "../bin",
     "paths": {
       "@ORGANIZATION/PROJECT-api": ["../src"],
-      "@ORGANIZATION/PROJECT-api/": ["../src"],
-      "@ORGANIZATION/PROJECT-api/*": ["../src/*"],
+      "@ORGANIZATION/PROJECT-api/lib/*": ["../src/*"],
     },
     "plugins": [
       { "transform": "typia/lib/transform" },

@@ -1,5 +1,5 @@
 import api from "@ORGANIZATION/PROJECT-api";
-import type { IPerformance } from "@ORGANIZATION/PROJECT-api/structures/monitors/IPerformance";
+import type { IPerformance } from "@ORGANIZATION/PROJECT-api/lib/structures/monitors/IPerformance";
 import typia from "typia";
 
 export const test_api_monitors_performance_get = async (

@@ -1,6 +1,6 @@
 import api from "@ORGANIZATION/PROJECT-api";
-import { IBbsArticle } from "@ORGANIZATION/PROJECT-api/structures/bbs/IBbsArticle";
-import { IPage } from "@ORGANIZATION/PROJECT-api/structures/common/IPage";
+import { IBbsArticle } from "@ORGANIZATION/PROJECT-api/lib/structures/bbs/IBbsArticle";
+import { IPage } from "@ORGANIZATION/PROJECT-api/lib/structures/common/IPage";
 import typia from "typia";
 
 export const test_api_bbs_articles_abridges = async (
