@@ -50,8 +50,7 @@ Just run `npm run deploy` command, then your SDK library would be published.
 
 By the way, the initial package name of this template repository is `@ORGANIZATION/PROJECT-api`. I think it would better to change the word to your own organization and project name. If you're utilizing `VsCode`, you can do it through `Edit > Replace in Files` (*Ctrl + Shift + H*) feature.
 
-
-
+-----------
 
 > ## What [`Nestia`](https://nestia.io) is:
 > ![Nestia Logo](https://nestia.io/logo.png)
