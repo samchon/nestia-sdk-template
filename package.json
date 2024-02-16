@@ -7,8 +7,10 @@
   "scripts": {
     "build": "rimraf lib && tsc",
     "build:test": "rimraf bin && tsc --project test/tsconfig.json",
+    "deploy": "npm run build && npm publish",
     "dev": "npm run build:test -- --watch",
     "prepare": "ts-patch install && typia patch",
+    "start": "npx ts-node test/start.ts",
     "test": "npx ts-node test/index.ts"
   },
   "repository": {
