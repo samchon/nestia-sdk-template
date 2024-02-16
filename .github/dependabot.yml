@@ -1,6 +1,5 @@
 version: 2
 updates:
-#######################################################
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
@@ -8,16 +7,5 @@ updates:
     open-pull-requests-limit: 25
     versioning-strategy: increase
     allow:
-      - dependency-name: "@nestjs/*"
       - dependency-name: "@nestia/*"
-      - dependency-name: "nestia"
-      - dependency-name: "tstl"
       - dependency-name: "typia"
-#######################################################
-  - package-ecosystem: 'npm'
-    directory: '/packages/api'
-    schedule:
-      interval: 'daily'
-    open-pull-requests-limit: 25
-    versioning-strategy: increase
-#######################################################
