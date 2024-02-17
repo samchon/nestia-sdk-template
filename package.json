@@ -45,7 +45,7 @@
     "@nestia/fetcher": "^2.5.8",
     "typia": "^5.4.9"
   },
-  "stackblitz": {
+  "stackblitzs": {
     "startCommand": "npm install && npm run test"
   }
 }
