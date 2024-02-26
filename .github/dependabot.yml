@@ -9,3 +9,8 @@ updates:
     allow:
       - dependency-name: "@nestia/*"
       - dependency-name: "typia"
+    groups:
+      samchon:
+        - patterns:
+          - "@nestia/fetcher"
+          - "typia"
