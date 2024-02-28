@@ -7,5 +7,10 @@ updates:
     open-pull-requests-limit: 25
     versioning-strategy: increase
     allow:
-      - dependency-name: "@nestia/*"
+      - dependency-name: "@nestia/fetcher"
       - dependency-name: "typia"
+    groups:
+      Samchon:
+        patterns:
+          - "@nestia/fetcher"
+          - "typia"
