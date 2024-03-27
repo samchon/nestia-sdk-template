@@ -43,7 +43,7 @@
     "typescript-transform-paths": "^3.4.6"
   },
   "dependencies": {
-    "@nestia/fetcher": "^2.6.0",
+    "@nestia/fetcher": "^2.6.1",
     "typia": "^5.5.7"
   }
 }
