@@ -17,6 +17,7 @@ Just import and call some API functions like gif image below:
 npm install
 npm start # run only "test/start.ts" file
 npm run test # everything under the "test/features" directory
+npm run test:simulate # "test/features" with mockup simulation mode
 ```
 
 If you run `npm start` command, only [test/start.ts](test/start.ts) file would be executed.

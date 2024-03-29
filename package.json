@@ -16,7 +16,7 @@
     "build:test": "rimraf bin && tsc --project test/tsconfig.json",
     "deploy": "npm run build && npm publish",
     "dev": "npm run build:test -- --watch",
-    "help": "echo Run \"npm run test:manual\" command.",
+    "hello": "node hello",
     "prepare": "ts-patch install && typia patch",
     "start": "ts-node test/start.ts",
     "swagger": "ts-node test/swagger.ts",
