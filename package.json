@@ -42,7 +42,7 @@
   ],
   "dependencies": {
     "@nestia/fetcher": "^2.6.4",
-    "typia": "^5.5.7"
+    "typia": "^5.5.8"
   },
   "devDependencies": {
     "@nestia/e2e": "^0.4.2",
