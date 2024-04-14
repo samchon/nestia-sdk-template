@@ -41,8 +41,8 @@
     "README.md"
   ],
   "dependencies": {
-    "@nestia/fetcher": "^3.0.1",
-    "typia": "^6.0.1"
+    "@nestia/fetcher": "^3.0.3",
+    "typia": "^6.0.2"
   },
   "devDependencies": {
     "@nestia/e2e": "^0.4.3",
