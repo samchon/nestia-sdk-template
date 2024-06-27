@@ -41,9 +41,9 @@
     "README.md"
   ],
   "dependencies": {
-    "@nestia/fetcher": "^3.2.6",
+    "@nestia/fetcher": "^3.3.1",
     "tgrid": "^1.0.2",
-    "typia": "^6.2.2"
+    "typia": "^6.3.1"
   },
   "devDependencies": {
     "@nestia/e2e": "^0.6.0",
@@ -62,7 +62,7 @@
     "swagger-ui-express": "^5.0.0",
     "ts-node": "^10.9.2",
     "ts-patch": "^3.2.1",
-    "typescript": "<5.6.0",
+    "typescript": "^5.5.2",
     "typescript-transform-paths": "^3.4.6"
   }
 }
