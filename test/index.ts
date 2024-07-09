@@ -1,6 +1,8 @@
 import { DynamicExecutor } from "@nestia/e2e";
-import { ArgumentParser } from "./utils/ArgumentParser";
+import chalk from "chalk";
+
 import { TestGlobal } from "./TestGlobal";
+import { ArgumentParser } from "./utils/ArgumentParser";
 
 interface IOptions {
   simulate: boolean;
@@ -30,6 +32,8 @@ const main = async (): Promise<void> => {
   const options: IOptions = await getOptions();
   const report: DynamicExecutor.IReport = await DynamicExecutor.validate({
     prefix: "test",
+    location: __dirname + "/features",
+    extension: __filename.substring(__filename.length - 2),
     parameters: () => [
       {
         ...TestGlobal.connection(),
@@ -41,8 +45,17 @@ const main = async (): Promise<void> => {
         (options.include ?? []).some((str) => func.includes(str))) &&
       (!options.exclude?.length ||
         (options.exclude ?? []).every((str) => !func.includes(str))),
-    extension: __filename.substring(__filename.length - 2),
-  })(__dirname + "/features");
+    onComplete: (exec) => {
+      if (exec.error === null) {
+        const elapsed: number =
+          new Date(exec.completed_at).getTime() -
+          new Date(exec.started_at).getTime();
+        console.log(
+          `  - ${exec.name}: ${chalk.green(elapsed.toLocaleString())} ms`,
+        );
+      } else console.log(`  - ${exec.name}: ${chalk.red(exec.error.name)}`);
+    },
+  });
 
   // REPORT EXCEPTIONS
   const exceptions: Error[] = report.executions
