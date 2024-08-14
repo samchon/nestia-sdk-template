@@ -37,7 +37,7 @@
   "dependencies": {
     "@nestia/fetcher": "^3.10.0",
     "tgrid": "^1.0.3",
-    "typia": "^6.7.2"
+    "typia": "^6.8.0"
   },
   "devDependencies": {
     "@nestia/e2e": "^0.7.0",
