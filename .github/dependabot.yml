@@ -11,6 +11,7 @@ updates:
       - dependency-name: "typia"
       - dependency-name: "tgrid"
       - dependency-name: "typescript"
+      - dependency-name: "typescript-transform-paths"
       - dependency-name: "ts-patch"
     groups:
       Samchon:
@@ -21,4 +22,5 @@ updates:
       TypeScript:
         patterns:
           - "typescript"
+          - "typescript-transform-paths"
           - "ts-patch"
