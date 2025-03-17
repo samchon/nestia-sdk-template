@@ -37,10 +37,10 @@
   "dependencies": {
     "@nestia/fetcher": "^5.0.0",
     "tgrid": "^1.1.0",
-    "typia": "^8.0.1"
+    "typia": "^8.0.3"
   },
   "devDependencies": {
-    "@nestia/e2e": "^0.8.2",
+    "@nestia/e2e": "^0.8.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
