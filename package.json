@@ -35,12 +35,12 @@
     "README.md"
   ],
   "dependencies": {
-    "@nestia/fetcher": "^8.1.0",
+    "@nestia/fetcher": "^9.0.1",
     "tgrid": "^1.2.0",
-    "typia": "^9.7.2"
+    "typia": "^10.0.2"
   },
   "devDependencies": {
-    "@nestia/e2e": "^8.1.0",
+    "@nestia/e2e": "^9.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
