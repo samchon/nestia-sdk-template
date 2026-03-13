@@ -5,8 +5,7 @@
  */
 //================================================================
 import type { IConnection } from "@nestia/fetcher";
-import { EncryptedFetcher } from "@nestia/fetcher/lib/EncryptedFetcher";
-import { PlainFetcher } from "@nestia/fetcher/lib/PlainFetcher";
+import { EncryptedFetcher } from "@nestia/fetcher";
 import typia from "typia";
 
 import type { ISystem } from "../../../structures/monitors/ISystem";

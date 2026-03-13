@@ -5,10 +5,9 @@
  */
 //================================================================
 import type { IConnection } from "@nestia/fetcher";
-import { NestiaSimulator } from "@nestia/fetcher/lib/NestiaSimulator";
-import { PlainFetcher } from "@nestia/fetcher/lib/PlainFetcher";
+import { NestiaSimulator, PlainFetcher } from "@nestia/fetcher";
+import type { tags } from "typia";
 import typia from "typia";
-import type { Format } from "typia/lib/tags/Format";
 
 import type { IBbsArticleComment } from "../../../../structures/bbs/IBbsArticleComment";
 import type { IPage } from "../../../../structures/common/IPage";
@@ -29,7 +28,7 @@ import type { IPage } from "../../../../structures/common/IPage";
  */
 export async function index(
   connection: IConnection,
-  articleId: string & Format<"uuid">,
+  articleId: string & tags.Format<"uuid">,
   input: IBbsArticleComment.IRequest,
 ): Promise<index.Output> {
   return !!connection.simulate
@@ -67,14 +66,14 @@ export namespace index {
     status: null,
   } as const;
 
-  export const path = (articleId: string & Format<"uuid">) =>
+  export const path = (articleId: string & tags.Format<"uuid">) =>
     `/bbs/articles/${encodeURIComponent(articleId ?? "null")}/comments`;
   export const random = (
     g?: Partial<typia.IRandomGenerator>,
   ): IPage<IBbsArticleComment> => typia.random<IPage<IBbsArticleComment>>(g);
   export const simulate = (
     connection: IConnection,
-    articleId: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
     input: IBbsArticleComment.IRequest,
   ): Output => {
     const assert = NestiaSimulator.assert({
@@ -110,8 +109,8 @@ export namespace index {
  */
 export async function at(
   connection: IConnection,
-  articleId: string & Format<"uuid">,
-  id: string & Format<"uuid">,
+  articleId: string & tags.Format<"uuid">,
+  id: string & tags.Format<"uuid">,
 ): Promise<at.Output> {
   return !!connection.simulate
     ? at.simulate(connection, articleId, id)
@@ -135,8 +134,8 @@ export namespace at {
   } as const;
 
   export const path = (
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
   ) =>
     `/bbs/articles/${encodeURIComponent(articleId ?? "null")}/comments/${encodeURIComponent(id ?? "null")}`;
   export const random = (
@@ -144,8 +143,8 @@ export namespace at {
   ): IBbsArticleComment => typia.random<IBbsArticleComment>(g);
   export const simulate = (
     connection: IConnection,
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
   ): Output => {
     const assert = NestiaSimulator.assert({
       method: METADATA.method,
@@ -180,7 +179,7 @@ export namespace at {
  */
 export async function create(
   connection: IConnection,
-  articleId: string & Format<"uuid">,
+  articleId: string & tags.Format<"uuid">,
   input: IBbsArticleComment.ICreate,
 ): Promise<create.Output> {
   return !!connection.simulate
@@ -218,14 +217,14 @@ export namespace create {
     status: null,
   } as const;
 
-  export const path = (articleId: string & Format<"uuid">) =>
+  export const path = (articleId: string & tags.Format<"uuid">) =>
     `/bbs/articles/${encodeURIComponent(articleId ?? "null")}/comments`;
   export const random = (
     g?: Partial<typia.IRandomGenerator>,
   ): IBbsArticleComment => typia.random<IBbsArticleComment>(g);
   export const simulate = (
     connection: IConnection,
-    articleId: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
     input: IBbsArticleComment.ICreate,
   ): Output => {
     const assert = NestiaSimulator.assert({
@@ -262,8 +261,8 @@ export namespace create {
  */
 export async function update(
   connection: IConnection,
-  articleId: string & Format<"uuid">,
-  id: string & Format<"uuid">,
+  articleId: string & tags.Format<"uuid">,
+  id: string & tags.Format<"uuid">,
   input: IBbsArticleComment.IUpdate,
 ): Promise<update.Output> {
   return !!connection.simulate
@@ -302,8 +301,8 @@ export namespace update {
   } as const;
 
   export const path = (
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
   ) =>
     `/bbs/articles/${encodeURIComponent(articleId ?? "null")}/comments/${encodeURIComponent(id ?? "null")}`;
   export const random = (
@@ -312,8 +311,8 @@ export namespace update {
     typia.random<IBbsArticleComment.ISnapshot>(g);
   export const simulate = (
     connection: IConnection,
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
     input: IBbsArticleComment.IUpdate,
   ): Output => {
     const assert = NestiaSimulator.assert({
@@ -350,8 +349,8 @@ export namespace update {
  */
 export async function erase(
   connection: IConnection,
-  articleId: string & Format<"uuid">,
-  id: string & Format<"uuid">,
+  articleId: string & tags.Format<"uuid">,
+  id: string & tags.Format<"uuid">,
   input: IBbsArticleComment.IErase,
 ): Promise<void> {
   return !!connection.simulate
@@ -389,16 +388,16 @@ export namespace erase {
   } as const;
 
   export const path = (
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
   ) =>
     `/bbs/articles/${encodeURIComponent(articleId ?? "null")}/comments/${encodeURIComponent(id ?? "null")}`;
   export const random = (g?: Partial<typia.IRandomGenerator>): void =>
     typia.random<void>(g);
   export const simulate = (
     connection: IConnection,
-    articleId: string & Format<"uuid">,
-    id: string & Format<"uuid">,
+    articleId: string & tags.Format<"uuid">,
+    id: string & tags.Format<"uuid">,
     input: IBbsArticleComment.IErase,
   ): void => {
     const assert = NestiaSimulator.assert({
