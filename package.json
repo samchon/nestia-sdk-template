@@ -11,12 +11,11 @@
     "deploy": "npm run build && npm publish",
     "dev": "npm run build:test -- --watch",
     "hello": "node hello",
-    "prepare": "ts-patch install && typia patch",
+    "prepare": "ts-patch install",
     "start": "ts-node test/start.ts",
     "swagger": "ts-node test/swagger.ts",
     "test": "ts-node test/index.ts",
-    "test:simulate": "ts-node test/index.ts --simulate true",
-    "test:manual": "ts-node test/manual.ts"
+    "test:simulate": "ts-node test/index.ts --simulate true"
   },
   "repository": {
     "type": "git",
