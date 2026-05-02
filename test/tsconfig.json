@@ -10,6 +10,7 @@
       { "transform": "typia/lib/transform" },
       { "transform": "typescript-transform-paths" },
     ],
+    "rootDir": "../",
   },
   "include": [
     ".", 

@@ -36,7 +36,7 @@
   "dependencies": {
     "@nestia/fetcher": "^11.0.1",
     "tgrid": "^1.2.1",
-    "typia": "^12.0.2"
+    "typia": "^12.1.0"
   },
   "devDependencies": {
     "@nestia/e2e": "^11.0.1",
@@ -55,8 +55,8 @@
     "rollup": "^4.13.2",
     "swagger-ui-express": "^5.0.0",
     "ts-node": "^10.9.2",
-    "ts-patch": "^3.3.0",
-    "typescript": "~5.9.3",
+    "ts-patch": "^4.0.1",
+    "typescript": "~6.0.3",
     "typescript-transform-paths": "^3.5.6"
   }
 }
