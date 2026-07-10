@@ -5,23 +5,25 @@ on:
       - 'src/**'
       - 'test/**'
       - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'tsconfig.json'
+      - 'rolldown.config.mjs'
+      - '.github/workflows/build.yml'
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20.x
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
+          node-version: 22.x
 
       - name: Install
         run: pnpm install
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Test
-        run: npm run test -- --simulate true
+        run: pnpm run test:simulate

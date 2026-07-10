@@ -5,7 +5,7 @@
  */
 //================================================================
 import type { IConnection } from "@nestia/fetcher";
-import { EncryptedFetcher } from "@nestia/fetcher";
+import { EncryptedFetcher } from "@nestia/fetcher/lib/EncryptedFetcher";
 import typia from "typia";
 
 import type { ISystem } from "../../../structures/monitors/ISystem";
@@ -54,7 +54,7 @@ export namespace get {
     return random(
       "object" === typeof connection.simulate && null !== connection.simulate
         ? connection.simulate
-        : undefined,
+        : undefined
     );
   };
 }
