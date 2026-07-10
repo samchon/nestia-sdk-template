@@ -14,21 +14,20 @@ Just import and call some API functions like gif image below:
 
 ## How to Test
 ```bash
-npm install
-npm start # run only "test/start.ts" file
-npm run test # everything under the "test/features" directory
-npm run test:simulate # "test/features" with mockup simulation mode
+pnpm install
+pnpm run start # run only "test/start.ts" file
+pnpm run test # everything under the "test/features" directory
+pnpm run test:simulate # "test/features" with mockup simulation mode
 ```
 
-If you run `npm start` command, only [test/start.ts](test/start.ts) file would be executed.
+If you run `pnpm run start` command, only [test/start.ts](test/start.ts) file would be executed.
 
-Otherwise you run `npm run test` command instead, run everything in the [test/features](test/features) directory.
+Otherwise you run `pnpm run test` command instead, run everything in the [test/features](test/features) directory.
 
 For reference, the [test/features](test/features) directory and E2E test functions (for each API endpoints) would be automatically composed only when you've configured the "E2E test function generation mode" of the `@nestia/migrate` (or `@nestia/editor`).
 
 ```bash
-npm install -g @nestia/migrate
-npx @nestia/migrate
+pnpm dlx @nestia/migrate
 ? Migration mode (Use arrow keys):
     NestJS
   > SDK
@@ -43,11 +42,11 @@ npx @nestia/migrate
 
 ## Deploy
 ```bash
-npm install
-npm run deploy
+pnpm install
+pnpm run deploy
 ```
 
-Just run `npm run deploy` command, then your SDK library would be published.
+Just run `pnpm run deploy` command, then your SDK library would be published.
 
 By the way, the initial package name of this template repository is `@ORGANIZATION/PROJECT-api`. I think it would better to change the word to your own organization and project name. If you're utilizing `VsCode`, you can do it through `Edit > Replace in Files` (*Ctrl + Shift + H*) feature.
 
