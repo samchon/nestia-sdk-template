@@ -2,14 +2,6 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "noEmit": true,
-    "paths": {
-      "@ORGANIZATION/PROJECT-api": ["../src"],
-      "@ORGANIZATION/PROJECT-api/lib/*": ["../src/*"],
-    },
-    "plugins": [
-      { "transform": "typia/lib/transform" },
-      { "transform": "typescript-transform-paths" },
-    ],
     "rootDir": "../",
   },
   "include": [
