@@ -54,13 +54,13 @@
     "README.md"
   ],
   "dependencies": {
-    "@nestia/fetcher": "^12.0.0-rc.4",
+    "@nestia/fetcher": "^12.0.0",
     "tgrid": "^1.2.1",
-    "typia": "^13.0.1"
+    "typia": "^13.0.2"
   },
   "devDependencies": {
-    "@nestia/e2e": "^12.0.0-rc.4",
-    "@ttsc/unplugin": "^0.18.2",
+    "@nestia/e2e": "^12.0.0",
+    "@ttsc/unplugin": "^0.18.4",
     "@types/express": "^4.17.21",
     "@types/inquirer": "8.2.5",
     "@types/swagger-ui-express": "^4.1.6",
@@ -72,7 +72,7 @@
     "rolldown": "^1.1.5",
     "swagger-ui-express": "^5.0.0",
     "tinyglobby": "^0.2.17",
-    "ttsc": "^0.18.2",
+    "ttsc": "^0.18.4",
     "typescript": "^7.0.2"
   },
   "packageManager": "pnpm@10.19.0"
