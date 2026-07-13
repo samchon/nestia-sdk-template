@@ -15,8 +15,8 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
       typia:
-        specifier: ^13.0.2
-        version: 13.0.2
+        specifier: ^13.1.0
+        version: 13.1.0
     devDependencies:
       '@nestia/e2e':
         specifier: ^12.0.0
@@ -433,8 +433,14 @@ packages:
   '@typia/interface@13.0.2':
     resolution: {integrity: sha512-8MnKq/vs90KA1iydscUubBzP2C6qXYL4vlW83giWV8ZzCfROtyyczx29P2ZH0tvN6yRd6qQlnx6sAB4YAmr7QA==}
 
+  '@typia/interface@13.1.0':
+    resolution: {integrity: sha512-pIAYjesALXauxLGOcuM/su7sIknBnrdQdgQpFhvNt/wf+sQOM/bXEebf62rH5kBrZ88m0x49HHSSQEC6X6ua+Q==}
+
   '@typia/utils@13.0.2':
     resolution: {integrity: sha512-xBaSdfviUgGJPdunaxKI/KFI5AFubDag2BYy8O+fd64yVaNgh/OaaWnOuHU2M7m+88pyR2WeVz0BisHcUJ7V7A==}
+
+  '@typia/utils@13.1.0':
+    resolution: {integrity: sha512-T+RFuzGic/Ppbgtm7670MrkFWIkv2Hq0UFkcWKWqnMg7mK/8zuEPCKBvHZTo+2qrD1kUxZzjTnLwJuGO69cd5Q==}
 
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
@@ -1008,8 +1014,8 @@ packages:
     engines: {node: '>=16.20.0'}
     hasBin: true
 
-  typia@13.0.2:
-    resolution: {integrity: sha512-hqzvUw4dEvaGd5jmKCUpmWbsukarou92s3ZVJi8kNI3qBAgahy2XES4E8A1t/hIcwGG0vaJ3SveRxxkE1aPInQ==}
+  typia@13.1.0:
+    resolution: {integrity: sha512-NIGBei56aXhV8gL1esJdm9YtJLLqKmwdaWJIee80TDP7WDKifoDe8tQH4y+uDdBCjpDoBkAjSo47FoQ1oG4Kdg==}
     hasBin: true
 
   undici-types@6.21.0:
@@ -1360,9 +1366,15 @@ snapshots:
 
   '@typia/interface@13.0.2': {}
 
+  '@typia/interface@13.1.0': {}
+
   '@typia/utils@13.0.2':
     dependencies:
       '@typia/interface': 13.0.2
+
+  '@typia/utils@13.1.0':
+    dependencies:
+      '@typia/interface': 13.1.0
 
   accepts@1.3.8:
     dependencies:
@@ -2009,11 +2021,11 @@ snapshots:
       '@typescript/typescript-win32-arm64': 7.0.2
       '@typescript/typescript-win32-x64': 7.0.2
 
-  typia@13.0.2:
+  typia@13.1.0:
     dependencies:
       '@standard-schema/spec': 1.1.0
-      '@typia/interface': 13.0.2
-      '@typia/utils': 13.0.2
+      '@typia/interface': 13.1.0
+      '@typia/utils': 13.1.0
       commander: 10.0.1
       inquirer: 8.2.5
       randexp: 0.5.3
