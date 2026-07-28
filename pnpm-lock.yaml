@@ -16,14 +16,14 @@ importers:
         version: 1.2.1
       typia:
         specifier: ^13.2.0
-        version: 13.2.0(ttsc@0.22.0)
+        version: 13.2.0(ttsc@0.23.0)
     devDependencies:
       '@nestia/e2e':
         specifier: ^12.1.0
         version: 12.1.0
       '@ttsc/unplugin':
-        specifier: ^0.22.0
-        version: 0.22.0(ttsc@0.22.0)
+        specifier: ^0.23.0
+        version: 0.23.0(ttsc@0.23.0)
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.25
@@ -58,8 +58,8 @@ importers:
         specifier: ^0.2.17
         version: 0.2.17
       ttsc:
-        specifier: ^0.22.0
-        version: 0.22.0
+        specifier: ^0.23.0
+        version: 0.23.0
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -212,43 +212,43 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@ttsc/darwin-arm64@0.22.0':
-    resolution: {integrity: sha512-UVXV6gerO3r+lK8lJbhOS1HtLKrGRTKTleean1IDKmXC7JqEiKqpbOhhRynb7qbMG2LOl/nqTLQBLjSs4sHl/A==}
+  '@ttsc/darwin-arm64@0.23.0':
+    resolution: {integrity: sha512-JNkV0/qApeccnSNN+k96xo9+UphFQp5l6nDU16PhkspTckRzFb5P7wSaeCIHTM2xZ7gBhXDOnc3dxB+wfXm+2Q==}
     cpu: [arm64]
     os: [darwin]
 
-  '@ttsc/darwin-x64@0.22.0':
-    resolution: {integrity: sha512-OZQCk0wNNmGxX39HPf8Rj9kFqC5Aax/i1SJST1XWGkCQMP6d3A4BGNSJ6TNCBoMT7pU//jCj7xMmV4Av0g4seg==}
+  '@ttsc/darwin-x64@0.23.0':
+    resolution: {integrity: sha512-OvfO8U7p+7w862Hp2B0G/PRtQJDq6jH+zGjEKM+MCF0N667fAI3xgICzKF6tlhMJOUMD15GxwPDpaiIeilqOoQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@ttsc/linux-arm64@0.22.0':
-    resolution: {integrity: sha512-6x5UprHcy29/hC5aTqkJnkBWuXyKCV2X9a4yhhhsM94JXqqKAifWos8HgJ1roUvmGG8zaEHNJrR0LtIvbFwBdA==}
+  '@ttsc/linux-arm64@0.23.0':
+    resolution: {integrity: sha512-eFS1k1Xtk3lEf4Pp7hTSTiXp4+u7mv6DgoxtiYDTwvWZ69s91cukIPZRaA0W06EUsWMe0J+nIqoc8/uJ6JpILQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@ttsc/linux-arm@0.22.0':
-    resolution: {integrity: sha512-wEG7Jq11AhuSLPOv6sE+kexSBlpDCCHoWjO5QgdN3WJ5oqhuBJyYoQoyujxXDxHGCi60a2vFpJiALk3uQU5lTw==}
+  '@ttsc/linux-arm@0.23.0':
+    resolution: {integrity: sha512-tHmejG6thGqSdQk1PUhzJ+C004cbrDgFmuGZ6bXsJj0zIuTikMnRJaw/gq8GMYI1jujtr3XV0cL+BaxS3oUz4A==}
     cpu: [arm]
     os: [linux]
 
-  '@ttsc/linux-x64@0.22.0':
-    resolution: {integrity: sha512-u1mC/ch4+Tpvmb2uNfJagHROo/OlpQt6FLXQrY7dPfPhRIgFbpoEy/rW2IgBumYIIwYBAB9hDfgUdO5ue3l9iw==}
+  '@ttsc/linux-x64@0.23.0':
+    resolution: {integrity: sha512-fcvWLP/f3vaXsaYTvwR03KPjWPhesGrJbJ0vpVSErnsbnjAYQkg7+3bdzdGhpUTILayd7TPX62weSAhG888FXA==}
     cpu: [x64]
     os: [linux]
 
-  '@ttsc/unplugin@0.22.0':
-    resolution: {integrity: sha512-dXju37iPlKSzfFzBUn08715IQUC6rLVip8DTsdGMKXjJSKwKw7YjhisU3/+OUXdyQRiHIE+QaKHtVBQZd7FfdA==}
+  '@ttsc/unplugin@0.23.0':
+    resolution: {integrity: sha512-hyLQlHHUp6eJjEOyLN1ARqqNHc2CkqBslNj+/xAUJp/yWRZ+kRBDumQde5tbywj/3VWZLU8SoeyuPlc53fbHqA==}
     peerDependencies:
-      ttsc: ^0.22.0
+      ttsc: ^0.23.0
 
-  '@ttsc/win32-arm64@0.22.0':
-    resolution: {integrity: sha512-RyZq5qgjZjm5H14Bw/5tkRqCLwSk4sXnExGjfoPj4hmv8Ia+MxsAJkh0ZQZQNq0JCZkRlxLfOxfFIMbbJJ/swQ==}
+  '@ttsc/win32-arm64@0.23.0':
+    resolution: {integrity: sha512-4a7XBrjW/vNG/TdlCnZnGI3a/YandBM6t8XN/vdZGU1FYVxADkBed2egTKSC/PTEJbCtdnqrtsosZxmf73VXeg==}
     cpu: [arm64]
     os: [win32]
 
-  '@ttsc/win32-x64@0.22.0':
-    resolution: {integrity: sha512-l0l8dVSU6aSdBKFqCT3n32Tjx6Q7QmoPP4gD7J3apZ+5pJC4H5gmQs+EJwKd9zjnmx0LPI3TVhXtJ5pcr61mrg==}
+  '@ttsc/win32-x64@0.23.0':
+    resolution: {integrity: sha512-sePUCdYny5/6fXHtxvoodumUWXv8lyGPTJleMAf6N5Dur+dW/bXEVVcEZmskTldzaHgX08KQKisKcmOLf1G5OA==}
     cpu: [x64]
     os: [win32]
 
@@ -993,8 +993,8 @@ packages:
   tstl@3.0.0:
     resolution: {integrity: sha512-pR83y6/tbJx6jeGRqGJXk2t/eCUynaHEE6zsOLB0Zga8ej61LXtPfoeiROdhezpoCT15+1QMbqKB1Um5kasSKg==}
 
-  ttsc@0.22.0:
-    resolution: {integrity: sha512-rjxf2KqOE9ajhALXQT5MQmTLuV+yolJby76nLEWSTtXVLgdA0ZXvlmnncHSbK+axhDp0KG9jhle40+n19dlS3Q==}
+  ttsc@0.23.0:
+    resolution: {integrity: sha512-OZmG/lrpi+neKmtYVeSpyVjWiyXA7c4rGwdRNWsRLEQglJ4yNc+Vp1IQemUEtPgowf/nlsNSe5H8bJ4KutJp2w==}
     engines: {node: '>=22.15.0'}
     hasBin: true
 
@@ -1196,30 +1196,30 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@ttsc/darwin-arm64@0.22.0':
+  '@ttsc/darwin-arm64@0.23.0':
     optional: true
 
-  '@ttsc/darwin-x64@0.22.0':
+  '@ttsc/darwin-x64@0.23.0':
     optional: true
 
-  '@ttsc/linux-arm64@0.22.0':
+  '@ttsc/linux-arm64@0.23.0':
     optional: true
 
-  '@ttsc/linux-arm@0.22.0':
+  '@ttsc/linux-arm@0.23.0':
     optional: true
 
-  '@ttsc/linux-x64@0.22.0':
+  '@ttsc/linux-x64@0.23.0':
     optional: true
 
-  '@ttsc/unplugin@0.22.0(ttsc@0.22.0)':
+  '@ttsc/unplugin@0.23.0(ttsc@0.23.0)':
     dependencies:
-      ttsc: 0.22.0
+      ttsc: 0.23.0
       unplugin: 2.3.11
 
-  '@ttsc/win32-arm64@0.22.0':
+  '@ttsc/win32-arm64@0.23.0':
     optional: true
 
-  '@ttsc/win32-x64@0.22.0':
+  '@ttsc/win32-x64@0.23.0':
     optional: true
 
   '@tybys/wasm-util@0.10.3':
@@ -1978,15 +1978,15 @@ snapshots:
 
   tstl@3.0.0: {}
 
-  ttsc@0.22.0:
+  ttsc@0.23.0:
     optionalDependencies:
-      '@ttsc/darwin-arm64': 0.22.0
-      '@ttsc/darwin-x64': 0.22.0
-      '@ttsc/linux-arm': 0.22.0
-      '@ttsc/linux-arm64': 0.22.0
-      '@ttsc/linux-x64': 0.22.0
-      '@ttsc/win32-arm64': 0.22.0
-      '@ttsc/win32-x64': 0.22.0
+      '@ttsc/darwin-arm64': 0.23.0
+      '@ttsc/darwin-x64': 0.23.0
+      '@ttsc/linux-arm': 0.23.0
+      '@ttsc/linux-arm64': 0.23.0
+      '@ttsc/linux-x64': 0.23.0
+      '@ttsc/win32-arm64': 0.23.0
+      '@ttsc/win32-x64': 0.23.0
 
   type-fest@0.21.3: {}
 
@@ -2018,7 +2018,7 @@ snapshots:
       '@typescript/typescript-win32-arm64': 7.0.2
       '@typescript/typescript-win32-x64': 7.0.2
 
-  typia@13.2.0(ttsc@0.22.0):
+  typia@13.2.0(ttsc@0.23.0):
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@typia/interface': 13.2.0
@@ -2028,7 +2028,7 @@ snapshots:
       randexp: 0.5.3
       tinyglobby: 0.2.17
     optionalDependencies:
-      ttsc: 0.22.0
+      ttsc: 0.23.0
 
   undici-types@6.21.0: {}
 
