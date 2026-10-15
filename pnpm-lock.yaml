@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       '@nestia/fetcher':
-        specifier: ^13.0.1
-        version: 13.0.1
+        specifier: ^14.0.3
+        version: 14.0.3
       tgrid:
         specifier: ^1.2.1
         version: 1.2.1
       typia:
-        specifier: ^14.0.2
-        version: 14.0.2(ttsc@0.28.2)
+        specifier: ^15.1.0
+        version: 15.1.0(ttsc@0.31.5)
     devDependencies:
       '@nestia/e2e':
-        specifier: ^13.0.1
-        version: 13.0.1
+        specifier: ^14.0.3
+        version: 14.0.3
       '@ttsc/unplugin':
-        specifier: ^0.28.2
-        version: 0.28.2(ttsc@0.28.2)
+        specifier: ^0.31.5
+        version: 0.31.5(ttsc@0.31.5)
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.25
@@ -58,8 +58,8 @@ importers:
         specifier: ^0.2.17
         version: 0.2.17
       ttsc:
-        specifier: ^0.28.2
-        version: 0.28.2
+        specifier: ^0.31.5
+        version: 0.31.5
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -89,8 +89,8 @@ packages:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/sourcemap-codec@1.5.5':
-    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+  '@jridgewell/sourcemap-codec@1.6.0':
+    resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
@@ -101,11 +101,11 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@nestia/e2e@13.0.1':
-    resolution: {integrity: sha512-ghjPhBvlBx3qx50sAezWx6ryxEIv0iFP8j/5GwKG/VGbmv+iRjZX75/pO27R0VOOf/4BRTFCXLKy7BQ5O4jDMQ==}
+  '@nestia/e2e@14.0.3':
+    resolution: {integrity: sha512-JRwB0OFRoorKy2rTHdM1ovCA+MULeGBhsOYL0ohJ53rC03CSlc80kXDU34JMRZI9U7qEqFI2axqkEH0JBqm8Yw==}
 
-  '@nestia/fetcher@13.0.1':
-    resolution: {integrity: sha512-3ihOcBa7YmoOZO0kcTDHyvyjsz0a+LWqNWj1+SU93wJZzqCsmn2jcfG/hHb/bwddxkukevWxUWziZCaaxbUT8g==}
+  '@nestia/fetcher@14.0.3':
+    resolution: {integrity: sha512-rj2l+Fam9grDtDRQMjXgHX3F4zBPOICa/g4MdvpAtUyd4Riqjm/p7z2y77xkyT5xQmLA4tw9l7Q5HGShg9+bHg==}
 
   '@oxc-project/types@0.139.0':
     resolution: {integrity: sha512-r9gHphtCs+1M7J0pw6Sn/hh/Wpa/iQrOOkrNAlVLF/gHq+/CJmHIWKKUUhdWjcD6CIa8idarspCsASiXCXvFUw==}
@@ -215,43 +215,38 @@ packages:
   '@scarf/scarf@1.4.0':
     resolution: {integrity: sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==}
 
-  '@ttsc/darwin-arm64@0.28.2':
-    resolution: {integrity: sha512-f/MmZwqjT+APvIQI5yhPYPa2dDwAuhm7wt/Pz3VxAWhxjD1pkXUGD0NFato0bA/QlwqJfCHMBCD/c/OHsxlIvA==}
+  '@ttsc/darwin-arm64@0.31.5':
+    resolution: {integrity: sha512-CsDuIO+JvKiaPxW9lQJAhmuQRNYKYBkMYxmGxNsV4Q4LvpTpZ0/TBJ+P/rQ0oON9WsNhbO+mDB8QPQSrHddMDA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@ttsc/darwin-x64@0.28.2':
-    resolution: {integrity: sha512-1nOcNZ9qqg2cvlAATMoXzesUvlp0aIUYIb/8eTaYY/cesW7Yp8XwTIfejKwzk3PsHkhNPcX96zamaqLCmm79XQ==}
+  '@ttsc/darwin-x64@0.31.5':
+    resolution: {integrity: sha512-0Kywj5Jxew8F9xX8cwRVtAgg3/b0WK6rjEcE9YapxPR0tdyV6VKel99OqjJYaseyfr5SgpG9OQUWOkQd3eBzbA==}
     cpu: [x64]
     os: [darwin]
 
-  '@ttsc/linux-arm64@0.28.2':
-    resolution: {integrity: sha512-ne8kwJc5iY2ZpEh1lWbCzOu8Tbmls3FOkmv65zzUpbzubVExkiiLXIDKdnuYyFxVzSl221hlfjRbHuWQ3LuD5A==}
+  '@ttsc/linux-arm64@0.31.5':
+    resolution: {integrity: sha512-+iG7o845AWnxvlpCiZXAjRi33FfrFShe0hCveYQlCwfcR9vRG7LdTRGJY220KScZQ4Scl7ui1D/y0aDAmc989w==}
     cpu: [arm64]
     os: [linux]
 
-  '@ttsc/linux-arm@0.28.2':
-    resolution: {integrity: sha512-a/xOU/WTKpLzTtsLZw3+CAF7XMdZ14eDtXvd+oH6zyqWxhciv/NElb68kkW253rKTUUjfmA8wH+UPMbn8Myz2w==}
-    cpu: [arm]
-    os: [linux]
-
-  '@ttsc/linux-x64@0.28.2':
-    resolution: {integrity: sha512-nRfj6jpaaG/BbBHyyw1SMJC44bIwaayL64MAvmbiWeCiBOhpla/V6d6kqK8eFuVZ4QD1EOUzMTwJxPKQfooqmA==}
+  '@ttsc/linux-x64@0.31.5':
+    resolution: {integrity: sha512-6/9Z07M2A0Z9LpyVtuRUa6gF0Q5Ry18sRhCheM6TxW5ybEmd13XoDFe/PMmmV/qFXgIdtoPpCx8yyRrk9wI5mA==}
     cpu: [x64]
     os: [linux]
 
-  '@ttsc/unplugin@0.28.2':
-    resolution: {integrity: sha512-/GZ83GXfNJTITcCShnw/jg+FowSLDnm1bj8H8a3B7xHtvljmoU9euq8buaBbCR58sgplJkco3dAaFIp9hQrSbQ==}
+  '@ttsc/unplugin@0.31.5':
+    resolution: {integrity: sha512-3rGqmmq8OMuPxeXkW2ABojvylPdPAYFCjCNjc0JiJxvGOLiLvxBZW6mo6gTtHr0TOxOoKannX5/WtGZdVX0SrA==}
     peerDependencies:
-      ttsc: ^0.28.2
+      ttsc: ^0.31.5
 
-  '@ttsc/win32-arm64@0.28.2':
-    resolution: {integrity: sha512-22vL+WnMkvFkqAgSitFQFPQNBeH1bKpcuqLj5mntn8nqy9rOLbm7uaqtwunVcjVnl7Emq9J4/lplbKbrKxE5oA==}
+  '@ttsc/win32-arm64@0.31.5':
+    resolution: {integrity: sha512-kUoot5xBHohHkH1d2hc2GRJk2zdjiSOGcuwvUxCeYX3Z/3KLylrgKp8YIEdGh55SH24QRNZQNjtjY8JxTUFpsw==}
     cpu: [arm64]
     os: [win32]
 
-  '@ttsc/win32-x64@0.28.2':
-    resolution: {integrity: sha512-95CQ9oaMKNeydHKc6AZwUdpXg/73pvXAZfo6xBT57fgciL2Ngv5Wnr5CiNQUh7ZORnAGgvcYu0oxIdETLuhw7w==}
+  '@ttsc/win32-x64@0.31.5':
+    resolution: {integrity: sha512-sjAuOvmeLjZtWuL582pj94+oCmCV0V5hAGqtpQj5l3jtzJ/sNMt4acZJf24E4zJIt4Wn2RvSWnvTsUzurdu6Fw==}
     cpu: [x64]
     os: [win32]
 
@@ -435,18 +430,23 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@typia/interface@14.0.2':
-    resolution: {integrity: sha512-2P/f5s3js/Yw3x7JJuM6jjhyWON3/asnXGE0p2n6WV4KxTgTWO1Qj/euPN8Y5+mfiYQuq8TcIRBekVyjyFlVWQ==}
+  '@typia/interface@15.1.0':
+    resolution: {integrity: sha512-kiKKWTAmJ8x48eUAkzTwH4AsX3CSe5AcsxGUkzkOqhqwlklxUWIACw93DXTr2F5aDIse3YBExJerWdgURsring==}
 
-  '@typia/utils@14.0.2':
-    resolution: {integrity: sha512-lDeWtIv6IF06bhuJJGxu/BkUrasJyxSYgIZ246lFTZxW53BhNnRoc+LaJSmbj/V39409PY3n7dotNVdVytY7fA==}
+  '@typia/utils@15.1.0':
+    resolution: {integrity: sha512-9NLCbKI2rQOA4M9EbEx0HwXfKIUIdkvO2J+6mZQttx2CBfiIspgt0VdJSvmD0hqMKa6LvDdmeBKl13wTizVGog==}
 
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
     engines: {node: '>= 0.6'}
 
-  acorn@8.18.0:
-    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
+  acorn@8.16.0:
+    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -510,6 +510,9 @@ packages:
 
   chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
+
+  cjs-module-lexer@2.2.1:
+    resolution: {integrity: sha512-Ca8swihM+/4yKecYHY52kgJd300hi2lADU/a1RxNTRe+RJ9jvqQlESpbz9DnG9mowez8qwXHB8qYdIUw9e+F5Q==}
 
   cli-cursor@3.1.0:
     resolution: {integrity: sha512-I/zHAwsKf9FqGoXM4WWRACob9+SNukZTd94DWF57E4toouRulbCxcUh6RKUEOQlYTHJnzkPMySvPNaaSLNfLZw==}
@@ -659,6 +662,11 @@ packages:
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
     engines: {node: '>= 0.6'}
+
+  fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
 
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
@@ -840,6 +848,10 @@ packages:
     resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
     engines: {node: '>=12'}
 
+  picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
+    engines: {node: '>=12'}
+
   proxy-addr@2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
     engines: {node: '>= 0.10'}
@@ -996,8 +1008,8 @@ packages:
   tstl@3.0.0:
     resolution: {integrity: sha512-pR83y6/tbJx6jeGRqGJXk2t/eCUynaHEE6zsOLB0Zga8ej61LXtPfoeiROdhezpoCT15+1QMbqKB1Um5kasSKg==}
 
-  ttsc@0.28.2:
-    resolution: {integrity: sha512-OEy2Gz6tBUXUgg1mzmIX+pPGnbvs9vEHrw9yqiQLu8GkMOz6e7pDQgBV9mJn31P48UgutPaFHufgK4+jqDw8hg==}
+  ttsc@0.31.5:
+    resolution: {integrity: sha512-LcpcBts+G88hG1bK+fkmTceoPST4YIMyA1UggBhJzBlPke3LbVcuTB2tpNUtD2ui4XFWFqV5l8JAyGNeYyHxYg==}
     engines: {node: '>=22.15.0'}
     hasBin: true
 
@@ -1014,8 +1026,8 @@ packages:
     engines: {node: '>=16.20.0'}
     hasBin: true
 
-  typia@14.0.2:
-    resolution: {integrity: sha512-yyqPAX+/0Wg1L4W/eglQjeZvEOQJrV9tH8m6rOJ06qEDXmZDsDidjysOSuuxEBha623hNPgwnU/YpymKn4PRlQ==}
+  typia@15.1.0:
+    resolution: {integrity: sha512-EW+b8jxKrRU/Q0eJXFry53vL6LFRlAMsSvfhKq3hh4pLTiswBWJMs6g4AtNlCPGCYJ0WMbSEME2qqe8DM7PnHg==}
     peerDependencies:
       ttsc: '>=0.19.2'
     peerDependenciesMeta:
@@ -1107,7 +1119,7 @@ snapshots:
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
       '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/remapping@2.3.5':
@@ -1117,12 +1129,12 @@ snapshots:
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
-  '@jridgewell/sourcemap-codec@1.5.5': {}
+  '@jridgewell/sourcemap-codec@1.6.0': {}
 
   '@jridgewell/trace-mapping@0.3.31':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
@@ -1131,12 +1143,12 @@ snapshots:
       '@tybys/wasm-util': 0.10.3
     optional: true
 
-  '@nestia/e2e@13.0.1': {}
+  '@nestia/e2e@14.0.3': {}
 
-  '@nestia/fetcher@13.0.1':
+  '@nestia/fetcher@14.0.3':
     dependencies:
-      '@typia/interface': 14.0.2
-      '@typia/utils': 14.0.2
+      '@typia/interface': 15.1.0
+      '@typia/utils': 15.1.0
 
   '@oxc-project/types@0.139.0': {}
 
@@ -1196,30 +1208,29 @@ snapshots:
 
   '@scarf/scarf@1.4.0': {}
 
-  '@ttsc/darwin-arm64@0.28.2':
+  '@ttsc/darwin-arm64@0.31.5':
     optional: true
 
-  '@ttsc/darwin-x64@0.28.2':
+  '@ttsc/darwin-x64@0.31.5':
     optional: true
 
-  '@ttsc/linux-arm64@0.28.2':
+  '@ttsc/linux-arm64@0.31.5':
     optional: true
 
-  '@ttsc/linux-arm@0.28.2':
+  '@ttsc/linux-x64@0.31.5':
     optional: true
 
-  '@ttsc/linux-x64@0.28.2':
-    optional: true
-
-  '@ttsc/unplugin@0.28.2(ttsc@0.28.2)':
+  '@ttsc/unplugin@0.31.5(ttsc@0.31.5)':
     dependencies:
-      ttsc: 0.28.2
+      ttsc: 0.31.5
       unplugin: 2.3.11
+    optionalDependencies:
+      fsevents: 2.3.3
 
-  '@ttsc/win32-arm64@0.28.2':
+  '@ttsc/win32-arm64@0.31.5':
     optional: true
 
-  '@ttsc/win32-x64@0.28.2':
+  '@ttsc/win32-x64@0.31.5':
     optional: true
 
   '@tybys/wasm-util@0.10.3':
@@ -1367,18 +1378,20 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@typia/interface@14.0.2': {}
+  '@typia/interface@15.1.0': {}
 
-  '@typia/utils@14.0.2':
+  '@typia/utils@15.1.0':
     dependencies:
-      '@typia/interface': 14.0.2
+      '@typia/interface': 15.1.0
 
   accepts@1.3.8:
     dependencies:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
-  acorn@8.18.0: {}
+  acorn@8.16.0: {}
+
+  acorn@8.19.0: {}
 
   ansi-escapes@4.3.2:
     dependencies:
@@ -1450,6 +1463,8 @@ snapshots:
       supports-color: 7.2.0
 
   chardet@0.7.0: {}
+
+  cjs-module-lexer@2.2.1: {}
 
   cli-cursor@3.1.0:
     dependencies:
@@ -1599,6 +1614,9 @@ snapshots:
   forwarded@0.2.0: {}
 
   fresh@0.5.2: {}
+
+  fsevents@2.3.3:
+    optional: true
 
   function-bind@1.1.2: {}
 
@@ -1770,6 +1788,8 @@ snapshots:
   path-to-regexp@0.1.13: {}
 
   picomatch@4.0.5: {}
+
+  picomatch@4.0.7: {}
 
   proxy-addr@2.0.7:
     dependencies:
@@ -1978,15 +1998,18 @@ snapshots:
 
   tstl@3.0.0: {}
 
-  ttsc@0.28.2:
+  ttsc@0.31.5:
+    dependencies:
+      acorn: 8.16.0
+      cjs-module-lexer: 2.2.1
     optionalDependencies:
-      '@ttsc/darwin-arm64': 0.28.2
-      '@ttsc/darwin-x64': 0.28.2
-      '@ttsc/linux-arm': 0.28.2
-      '@ttsc/linux-arm64': 0.28.2
-      '@ttsc/linux-x64': 0.28.2
-      '@ttsc/win32-arm64': 0.28.2
-      '@ttsc/win32-x64': 0.28.2
+      '@ttsc/darwin-arm64': 0.31.5
+      '@ttsc/darwin-x64': 0.31.5
+      '@ttsc/linux-arm64': 0.31.5
+      '@ttsc/linux-x64': 0.31.5
+      '@ttsc/win32-arm64': 0.31.5
+      '@ttsc/win32-x64': 0.31.5
+      fsevents: 2.3.3
 
   type-fest@0.21.3: {}
 
@@ -2018,13 +2041,13 @@ snapshots:
       '@typescript/typescript-win32-arm64': 7.0.2
       '@typescript/typescript-win32-x64': 7.0.2
 
-  typia@14.0.2(ttsc@0.28.2):
+  typia@15.1.0(ttsc@0.31.5):
     dependencies:
-      '@typia/interface': 14.0.2
-      '@typia/utils': 14.0.2
+      '@typia/interface': 15.1.0
+      '@typia/utils': 15.1.0
       randexp: 0.5.3
     optionalDependencies:
-      ttsc: 0.28.2
+      ttsc: 0.31.5
 
   undici-types@6.21.0: {}
 
@@ -2035,8 +2058,8 @@ snapshots:
   unplugin@2.3.11:
     dependencies:
       '@jridgewell/remapping': 2.3.5
-      acorn: 8.18.0
-      picomatch: 4.0.5
+      acorn: 8.19.0
+      picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
 
   util-deprecate@1.0.2: {}
